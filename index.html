@@ -9,11 +9,56 @@
 </head>
 <body>
 
+	<header class="test-mobile-header">
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #fff!important">
+		<div class="test-header_logo">
+			<picture>
+				 <source srcset="img/logoLarge.png" media="(min-width: 1920px)">
+				<img src="img/logoSmall.png" alt="logo-img">
+			</picture>
+			<h1 class="test-header_logo__content">共享器</h1>
+		</div> 
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+
+ 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav mr-auto">
+      				<li class="nav-item">
+        				<a class="nav-link" href="#">Articles</a>
+      				</li>
+      				<li class="nav-item">
+        				<a class="nav-link" href="#">Manual</a>
+      				</li>
+       				<li class="nav-item">
+        				<a class="nav-link" href="#">Contacts</a>
+      				</li>
+    			</ul>
+				
+				<div class="header-form">
+					<div class="form-trials">
+						<p>Start your free trial today</p>
+						<span>7-day Trial • Easy to use • Cancel anytime</span>
+					</div>
+
+    				<form class="form-inline my-2 my-lg-0">
+      					<input class="form-control mr-sm-2" type="search" placeholder="输入邮箱" aria-label="Search" />
+      					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">开始使用</button>
+    				</form>
+  				</div>
+  			</div>
+		</nav>
+	</header>
+
 	<header class="test-header">
 
 	<div class="test-header_content">
 		<div class="test-header_logo">
-			<img src="img/logoSmall.png" alt="logo-img">
+			<picture>
+				 <source srcset="img/logoLarge.png" media="(min-width: 1920px)">
+				<img src="img/logoSmall.png" alt="logo-img">
+			</picture>
 			<h1 class="test-header_logo__content">共享器</h1>
 		</div> 
 
@@ -34,10 +79,10 @@
 				</ul>
 			</div>
 
-			<div class="test-header_offer__input">
+			<form class="test-header_offer__input ">
 				<input type="text" placeholder="输入邮箱">
 				<button type="submit" class="btn test-header_offer__btn" >开始使用</button>
-			</div>
+			</form>
 
 		</div>
 	</div>
@@ -45,7 +90,6 @@
 	</header>
 	
 	<main>
-		<div class="wrapper">
 			<section class="test-content-section col-lg-12">
 
 				<div class="container">
@@ -56,7 +100,10 @@
 								<h1 class="first-section_content__desc_head">How to reset Android phone remotely</h1>
 
 								<span class="first-section_content__desc_author">
-									<img src="img/avatarImage.png" alt="avatar-img">
+									<picture>
+										 <source srcset="img/avatarImage@2x.png.png" media="(min-width: 1920px)">
+										<img src="img/avatarImage.png" alt="avatar-img">
+									</picture>
 									<p class="first-section_content__desc_author-info">Olga Weis • 16 May, 2018</p>
 								</span>
 
@@ -104,13 +151,18 @@
 						<div class="row">
 							<div class="test-content-section__prod col-lg-11">
 								<div class="test-content-section__prod__desc">
-									<img src="img/logoLarge.png" alt="large-logo">
+									<picture>
+										 <source srcset="img/logoLarge@2x.png.png" media="(min-width: 1920px)">
+										<img src="img/logoLarge.png" alt="large-logo">
+									</picture>
 									<h1>ProductName #1</h1>
 									<p>Share USB over IP network and access remote USB and serial devices from anywhere!</p>
 									<span>The easiest way will be to use ProductName, an app that lets you access and share remote USB devices over IP. Figure out how to share scanner between two computers with ProductName help.</span>
 								</div>
-
-								<img src="img/tempateOneImage.png" alt="template-img-1">
+								<picture>
+								 <source srcset="img/tempateOneImage@2x.png" media="(min-width: 1920px)">
+								<img src="img/tempateOneImage.png" alt="template-img-1" class="template-img">
+								</picture>
 							</div>
 						</div>
 
@@ -120,15 +172,18 @@
 									<h1>Start your free trial Today</h1>
 									<p>7-day Trial • Cancel anytime.</p>
 								</div>
-								<input type="email" placeholder="Your email address">
-								<button class="btn submit-btn">Get started</button>
+
+								<form action="" class="submit-form">
+									<input type="email" placeholder="Your email address">
+									<button type="submit" class="btn submit-btn">Get started</button>
+								</form>
 							</div>
 						</div>
 
 						<div class="row">
 							<div class="test-content-section_wide__footer">
 								<div class="test-content-section_wide__footer_rank">
-									<p>4.5 rank based on 988 users</p>
+									<p class="test-content-section_wide__footer_proof">4.5 rank based on 988 users</p>
 									<p class="test-content-section_wide__footer_rank__os">Windows XP and later,<br> OS X 10.9+, Ubuntu 14.04+, Android 4.0 and above.</p>
 								</div>
 
@@ -192,8 +247,11 @@
 										<h2 class="col-xs-5">Start your free trial Today</h2>
 										<p>7-day Trial • Cancel anytime.</p>
 								</div>
+
+								<form action="" class="submit-form">
 									<input type="email" placeholder="Your email address">
-									<button class="btn submit-btn">Get started</button>
+									<button type="submit" class="btn submit-btn opps-submit-btn">Get started</button>
+								</form>
 								</div>
 							</div>
 						</div>
@@ -211,7 +269,7 @@
 				<section class="test-content-section second-method-section">
 					<div class="container">
 						<div class="row">
-							<div class="test-content-section__header col-lg-6">
+							<div class="test-content-section__header col-xs-6">
 								<p>Method 2: Simplest way to get help with Android phone reset</p>
 							</div>
 						</div>
@@ -222,19 +280,20 @@
 									<h1>ProductName #2</h1>
 									<p>Share USB over IP network and access remote USB and serial devices from anywhere!</p>
 									<span>The easiest way will be to use ProductName, an app that lets you access and share remote USB devices over IP. Figure out how to share scanner between two computers with ProductName help.</span>
-									<button class="btn get-btn">Get in now</button>
+									<button type="submit" class="btn get-btn">Get in now</button>
 								</div>
-
-								<img src="img/tempateTwoImage.png" alt="template-img">
-
+								<picture>
+								 <source srcset="img/tempateTwoImage@2x.png" media="(min-width: 1920px)">
+								<img src="img/tempateTwoImage.png" alt="template-img" class="template-img">
+								</picture>
 							</div>
 						</div>
 
 						<div class="row">
-							<div class="test-content-section_wide__footer">
-								<div class="test-content-section_wide__footer_rank">
+							<div class="test-content-section__footer">
+								<div class="test-content-section__footer_rank">
 									<p>4.5 rank based on 988 users</p>
-									<p class="test-content-section_wide__footer_rank__os">Windows XP and later,<br> OS X 10.9+, Ubuntu 14.04+, Android 4.0 and above.</p>
+									<p class="test-content-section__footer_rank__os">Windows XP and later,<br> OS X 10.9+, Ubuntu 14.04+, Android 4.0 and above.</p>
 								</div>
 
 							</div>
@@ -289,8 +348,19 @@
 										<h2>Start your free trial Today</h2>
 										<p class="form-p">7-day Trial • Cancel anytime.</p>
 									</div>
-									<input type="email" placeholder="Your email address">
-									<button class="btn submit-btn articles-btn">Get started</button>
+
+									<form action="" class="submit-form">
+										<input type="email" placeholder="Your email address">
+										<button type="submit" class="btn submit-btn articles-btn">Get started</button>
+									</form>
+
+								</div>
+
+								<div class="test-content-section_articles__footer">
+									<div class="test-content-section_articles__footer_rank">
+										<p>4.5 rank based on 988 users</p>
+										<p class="test-content-section_articles__footer_rank__os">Windows XP and later,<br> OS X 10.9+, Ubuntu 14.04+, Android 4.0 and above.</p>
+									</div>
 								</div>
 
 								<div class="test-content-section_form__additional">
@@ -307,8 +377,9 @@
 	</main>
 
 	<footer class="test-footer">
-		<div class="test-footer__list">
-			<ul>
+
+		<div class="test-footer__adds col-lg-6">
+			<ul class="test-footer__list">
 				<li>
 					<a href="#">价格</a>
 				</li>
@@ -327,11 +398,21 @@
 		<div class="test-footer__list-second">
 			<p>© 2014–2018</p>
 				<ul>
-					<li><a href="#">共享器</a></li>
-					<li><a href="#">隐私政策</a></li>
-					<li><a href="#">手册</a></li>
-					<li><a href="#">服务条款</a></li>
-					<li><a href="#">卸载</a></li>
+					<li>
+						<a href="#">共享器</a>
+					</li>
+					<li>
+						<a href="#">隐私政策</a>
+					</li>
+					<li>
+						<a href="#">手册</a>
+					</li>
+					<li>
+						<a href="#">服务条款</a>
+					</li>
+					<li>
+						<a href="#">卸载</a>
+					</li>
 				</ul>
 		</div>
 	</footer>
@@ -340,7 +421,7 @@
 <script>
 
 var disqus_config = function () {
-this.page.url = PAGE_URL;  
+this.page.url = `https://mabelyaev2.github.io/`;  
 this.page.identifier = 'test-site-template-2'; 
 };
 
@@ -352,5 +433,8 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 </html>
